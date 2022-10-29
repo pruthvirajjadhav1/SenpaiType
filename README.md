@@ -1,5 +1,5 @@
 <h1 align="center">
-  <p align="center"><strong>Sakamoto</strong></p>
+  <p align="center"><strong>SenpaiType</strong></p>
   <a href=""><img src="/img/SenpaiType-Banner.png" alt="Cover"></a>
 </h1>
 
@@ -7,16 +7,15 @@
 <a href="#"><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/></a>
 <a href="#"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/></a>
 <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/></a>
-<a href="https://discord.gg/XkjUHWuT"><img src="https://img.shields.io/badge/Sakamoto-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white"/></a>
+<a href="https://discord.gg/XkjUHWuT"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"/></a>
 </p>
 
 ---
 
 ## **Introduction**
 
-SenpaiType is a minimal typing practice website with no features except typing. Inspired from monkeytype.
+SenpaiType is a minimal typing practice website with no features except typing. Inspired from [Monkeytype](https://monkeytype.com).
 
-**Backend**: works on **[SenpaiType-api](coming soon)** with /routes.
 
 ---
 
