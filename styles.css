@@ -8,6 +8,13 @@ body {
   color: #52575d;
 }
 
+img{
+
+  margin-top: 3vw;
+  height: 15vw;
+  width: 15vw;
+}
+
 a {
   color: #52575d;
 }
@@ -73,7 +80,7 @@ a {
 }
 
 .stat-name {
-  font-size: 1rem;
+  font-size: 1.5rem;
   position: relative;
   top: 45px;
   right: 5px;
