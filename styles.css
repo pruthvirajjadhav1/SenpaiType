@@ -8,13 +8,16 @@ body {
   color: #52575d;
 }
 
-img{
-
+.image
+{
+  width: 50%;
   margin-top: 3vw;
-  height: 15vw;
-  width: 15vw;
 }
 
+.top
+{
+  display: flex;
+}
 a {
   color: #52575d;
 }
@@ -53,11 +56,17 @@ a {
 
 .limits-box {
   text-align: right;
-
+  width: 50%;
+align-self: flex-end;
   margin: 0 35px 0 0;
   font-size: 15px;
 }
-
+/* 
+.limit
+{
+ background-color: #52575d;
+ width: 50%;
+} */
 .stats {
   margin: 10px auto 20px auto;
 }
