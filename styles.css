@@ -12,8 +12,8 @@ a {
   color: #52575d;
 }
 .yellow {
-  /* color: #ffd369; */
-  color: red;
+  color: #ffd369;
+  /* color: red; */
 }
 .correct {
   color: #29bb89;
@@ -127,7 +127,7 @@ textarea {
 
 
 :root{
-    --bs-dark: rgba(224, 219, 219, 0.9);
+    --bs-dark: linear-gradient(318.32deg, #c3d1e4 0%, #dde7f3 55%, #d4e0ed 100%);
   }
   
   .theme-container {
@@ -148,7 +148,7 @@ textarea {
     opacity: 0.8;
   }
   
-  .shadow-dark {
+.shadow-dark {
     background: linear-gradient(145deg, #23282c, #1e2125);
     box-shadow: 17px 17px 23px #1a1d20,
     -17px -17px 23px #282d32, inset 5px 5px 4px #1e2226,
@@ -160,7 +160,6 @@ textarea {
       box-shadow: 7px 7px 33px #ffffff8f,       
       -7px -7px 33px #f0f4f6, inset 5px 5px 4px #b8bdc7,
       inset -5px -5px 4px rgba(255, 255, 255, 0.3);
-  
   }
   
   @keyframes change {
