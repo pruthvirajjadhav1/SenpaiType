@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 html {
   background: #212121;
 }
@@ -11,17 +13,19 @@ a {
   color: #52575d;
 }
 .yellow {
-  color: #ffd369;
+  color: #c9bd10;
 }
 .correct {
-  color: #29bb89;
+  color: #3fbd00;
+  background-color: rgb(166, 255, 154);
 }
 .wrong {
   color: #e84545;
   text-decoration: underline;
+  background-color: rgb(255, 202, 202);
 }
 .current {
-  color: #eeeeee;
+  color: #4c49e7;
 }
 .center {
   text-align: center;
@@ -151,28 +155,29 @@ textarea {
 }
 #a-link {
   text-decoration: none;
-  font-family:'Fuzzy Bubbles',cursive,'Indie Flower', cursive,'Island Moments', cursive,Georgia, 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: 50px;
+  color:#a35ae8
 }
 .msg {
   position: fixed;
   z-index: 56;
   width: fit-content;
   height: fit-content;
-  top: 5%;
+  top: 13%;
   right: 2%;
   padding: 10px 20px;
   display: none;
   border-radius: 5px;
   font-size: 18px;
-  background: #00a186;
+  background: #ff6f3b;
   color: white;
   box-shadow: 0 10px 15px -3px rgb(149 149 162), 0 4px 6px -2px rgb(0 0 0 / 5%);
   transition: transform ease-in-out 0.2s;
 }
 .show.msg {
   display: block;
-  animation: fadeInAnimation ease 0.3s;
+  animation: fadeInAnimation ease 0.2s;
   animation-iteration-count: 1;
   animation-fill-mode:forwards;
 }
@@ -255,7 +260,7 @@ background-color: #000;
 }
 
 .light-mode {
-  background-color: #e6e6fa;
+  background-color: #f3f3ff;
 }
 #button_color{
   background-color: #000;
@@ -313,24 +318,7 @@ background-color: #000;
   transition: 0.3s;
 }
 
-/* Light & Dark Mode Styles
---------------------------- */
-/* body {
-background-color: #f6f6f6;
-transition: background-color .3s;
-} */
-body[light-mode='dark'] {
-  background-color: #140026;
-  color: #ced4e2;
-}
-body[light-mode='dark'] .light-mode-button span:nth-child(1) {
-  background-color: #ced4e2;
-  color: #141516;
-}
-body[light-mode='dark'] .light-mode-button span:nth-child(2) {
-  left: 65px;
-  background-color: #141516;
-}
+  
 
 /* Light Mode Button Styles
         --------------------------- */
@@ -377,8 +365,8 @@ background-color: #f6f6f6;
 transition: background-color .3s;
 } */
 body[light-mode='dark'] {
-  background-color: #140026;
-  color: #ced4e2;
+  background-color: #000245a2;
+  color: #dbdfe8;
 }
 body[light-mode='dark'] .light-mode-button span:nth-child(1) {
   background-color: #ced4e2;
@@ -387,4 +375,9 @@ body[light-mode='dark'] .light-mode-button span:nth-child(1) {
 body[light-mode='dark'] .light-mode-button span:nth-child(2) {
   left: 65px;
   background-color: #141516;
+}
+#footerlabel{
+  background-color: #b8b8b8;
+  height: auto;
+  width: 100%;
 }
