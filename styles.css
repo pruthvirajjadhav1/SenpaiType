@@ -3,6 +3,8 @@ html {
   }
   
   body {
+    margin: 0px ;
+    padding: 0px 0px;
     font-family: "Source Code Pro", monospace;
     background: #212121;
     color: #52575d;
@@ -10,12 +12,11 @@ html {
   #navbar {
     position: sticky;
     top: 0;
-
     margin-top: 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: .1rem 1.5rem;
+    padding: 0.1rem 1.5rem;
     background: rgba(255, 255, 255, 0.1);
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -35,9 +36,8 @@ html {
   #logo img{
     padding: 0px 15px;
     max-height: 140px;
+    cursor:default;
   }
-  
-  
   a {
     color: #52575d;
   }
