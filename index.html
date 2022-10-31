@@ -10,7 +10,8 @@
       name="description"
       content="This Speed Typing Test will give you an acuurate speed test and help increase your typing speed"
     />
-
+    <link rel = "icon" href ="img/pngegg.png" 
+        type = "image/x-icon">
     <title>SenpaiType</title>
 
     <link rel="icon" href="favicon.ico" />
@@ -40,11 +41,18 @@
     />
   </head>
   <body>
+    <header>
+      <nav id="navbar">
+        <div id="logo">
+          <h1><img src="img/pngegg.png" alt="Reload" width="130" /> <a href="index.html" >SenpaiType</a></h1>
+        </div>
+      </nav>
+    </header> 
     <div class="container-fluid box">
       <div class="top">
-        <div class="image">
-          <img src="img/pngegg.png" alt="Reload" width="130" />
-        </div>
+        <!-- <div class="image">
+          <img src="/img/pngegg.png" alt="Reload" width="130" />
+        </div> -->
 
         <div class="limits-box">
           <div class="limit">
@@ -58,10 +66,9 @@
         </div>
       </div>
 
-
       <div class="stats center">
-          <div class="stat-block if">
-              <div id="timeName" class="stat-name yellow if">Time</div>
+        <div class="stat-block if">
+          <div id="timeName" class="stat-name yellow if">Time</div>
           <div id="time" class="details if">30</div>
         </div>
 
@@ -69,13 +76,9 @@
           <div id="cwName" class="stat-name yellow if">CW</div>
           <div id="cw" class="details if">0</div>
         </div>
-    </div>
-    
-    <div class="text-display" id="textDisplay"></div>
-    
-  <div class="theme-container shadow-light">
-      <img id="theme-icon"    src="https://www.uplooder.net/img/image/55/7aa9993fc291bc170abea048589896cf/sun.svg" alt="ERR">
-    </div>
+      </div>
+
+      <div class="text-display" id="textDisplay"></div>
 
       <div class="input-area center">
         <textarea
