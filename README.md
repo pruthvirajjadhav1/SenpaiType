@@ -3,6 +3,8 @@
   <a href=""><img src="/img/SenpaiType-Banner.png" alt="Cover"></a>
 </h1>
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/https://github.com/pruthvirajjadhav1/Crypto-Tracker>)
+
 <p align="center">
 <a href="#"><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/></a>
 <a href="#"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/></a>
